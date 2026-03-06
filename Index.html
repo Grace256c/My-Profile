@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>Grace Nakiyemba</h2>
+    <!--Profile-->
+    <h2>Grace <span>Nakiyemba</span></h2>
     <p>
       Grace Nakiyemba is a software engineering scholar at Groundbreaker Talents
       and an alumna of Code Queen. Raised in rural Uganda as the firstborn of
@@ -30,26 +32,32 @@
     </ul>
     <img src="Grace.jpeg" alt="Grace Nakiyemba" width="300px" />
     <br /><br />
-    <a href="https://groundbreaker.org/">Groundbreaker Talents</a>
-    <br><br>
+    <a href="https://groundbreaker.org/" target="_blank">Groundbreaker Talents</a>
+    <br /><br />
+
+    <!-- Table -->
     <table border="1">
       <tr>
         <th>Movies</th>
-        <th>Songs</th>
         <th>Genres</th>
       </tr>
       <tr>
         <td>I can only Imagige</td>
-        <td>The Chosen</td>
-        <td>Over Comer</td>
+        <td>Biological Drama</td>
       </tr>
       <tr>
-        <td>Biological Drama</td>
+        <td>The Chosen</td>
         <td>Drama/Historical</td>
+      </tr>
+      <tr>
+        <td>Over Comer</td>
         <td>Sports/Drama</td>
       </tr>
     </table>
     <br /><br />
+
+    <!--Contact Form-->
+    <h3>Contact Me</h3>
     <form>
       <label for="name">Your Name *</label>
       <input
@@ -84,6 +92,8 @@
         placeholder="Tell us what's on your mind..."
         required
       ></textarea>
+      <br /><br />
+      <button>Submit</button>
     </form>
   </body>
 </html>
